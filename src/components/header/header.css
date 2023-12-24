@@ -1,0 +1,16 @@
+.header {
+   padding: 15px;
+   background-color: #7a7a7a;
+   margin: 0 auto;
+   margin-bottom: 10px;
+   border-radius: 0 0 10px 10px;
+}
+
+.logo {
+   font-size: 22px;
+   text-transform: uppercase;
+   line-height: 25px;
+   color: #fff;
+   text-decoration: none;
+   font-weight: 600;
+}

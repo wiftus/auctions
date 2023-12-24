@@ -1,0 +1,59 @@
+.lots {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: repeat(2, 1fr);
+   gap: 10px;
+   width: 100%;
+}
+
+.lot {
+   background-color: #7a7a7a;
+   padding: 5px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   border-radius: 10px;
+   gap: 10px;
+}
+
+.lot-img {
+   width: 100%;
+   margin-bottom: 10px;
+   max-width: 315px;
+   max-height: 180px;
+}
+
+.lot-price {
+   margin-bottom: 10px;
+}
+
+.input-container {
+   display: flex;
+   justify-content: space-between;
+}
+
+.lot-bid {
+   padding: 0 3px;
+   margin-left: auto;
+   font-weight: 700;
+}
+
+.lot-btn {
+   font-size: 15px;
+   font-weight: 600;
+   padding: 0 3px;
+}
+
+
+input {
+   max-width: 60px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+}
+
+input[type='number'] {
+   -moz-appearance: textfield;
+}
